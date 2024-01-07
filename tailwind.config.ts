@@ -8,16 +8,21 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      "base-color": "#009ADF",
-      "white-color": "#ffffff",
-      "black-color": "#000000",
-      "gray-0": "#FAFAFA",
-      "gray-1": "#ECECEC",
-      "gray-2": "#D9D9D9",
-      "gray-3": "#868E96",
-      "gray-4": "#808080",
-      "alert-error": "#ff0000"
-    }
+      "primary-color": "#F0F0F2",
+      "secondary-color": "#E9ECF3",
+      "white-color": "#FCFCFC",
+      "black-color": "#333333",
+      "gray-dark-color": "#585858",
+      'gray-color': '#D6D4D4',
+      "gray-light-color": "#D9D9D9"
+    },
+    fontSize: {
+      "extra-huge-size": "40px",
+      "extra-large-size": "24px",
+      "large-size": "20px",
+      "medium-size": "16px",
+      "small-size": "12px",
+    },
   },
   plugins: [],
 }
